@@ -1,16 +1,11 @@
 <template>
   <div>
-    <router-view></router-view>
-    <FooterGuide></FooterGuide>
+    Search
   </div>
 </template>
 
 <script type="text/ecmascript-6">
-  import FooterGuide from './components/FooterGuide/footerGuide.vue'
   export default {
-    components:{
-      FooterGuide
-    }
   }
 </script>
 
